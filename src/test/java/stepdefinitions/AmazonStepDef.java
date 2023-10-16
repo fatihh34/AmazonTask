@@ -138,6 +138,8 @@ public class AmazonStepDef {
         String urunAdediSayisi= amazonUrunSepetSayfasi.urunAdetiIki.getText();
         Assert.assertTrue(urunAdediSayisi.contains("2"));
 
+        //hhhhhhhhhhhhhhhh
+
     }
 }
 
