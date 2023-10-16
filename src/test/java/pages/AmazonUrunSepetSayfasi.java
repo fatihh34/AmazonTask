@@ -16,8 +16,17 @@ public class AmazonUrunSepetSayfasi {
     @FindBy(xpath = "//*[@class='a-button a-spacing-top-base a-button-span12 a-button-base celwidget']")
     public WebElement sepet;
 
+    @FindBy(xpath = "//*[@class='a-button-text a-declarative']")
+    public WebElement dropdown;
 
-    //  (//*[@class='a-offscreen'])[2]
-    //*[@class='a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold']
-    //*[@class='a-offscreen']
+    @FindBy(xpath = "//*[@id='quantity_2']")
+    public WebElement dropdown2;
+
+    @FindBy(xpath = "//*[@id='sc-subtotal-label-buybox']")
+    public WebElement urunAdetiIki;
+
+
+
+
+
 }

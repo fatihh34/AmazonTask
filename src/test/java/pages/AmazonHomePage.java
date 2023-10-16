@@ -39,7 +39,4 @@ public class AmazonHomePage {
     @FindBy(xpath = "//*[@class='a-section a-spacing-none aok-align-center']")
     public WebElement secilenUrununTutarBilgisi;
 
-    //@FindBy(xpath = "(//*[@class='a-offscreen'])[2]")
-    //public WebElement secilenUrununTutarBilgisi;
-
 }

@@ -198,6 +198,11 @@ public class ReusableMethods {
         return select.getFirstSelectedOption();
     }
 
+    public static void selectByIndex(WebElement element, int index) {
+        Select objSelect = new Select(element);
+        objSelect.selectByIndex(index);
+    }
+
     /**
      * Verifies whether the element matching the provided locator is displayed on page
      * fails if the element matching the provided locator is not found or not displayed

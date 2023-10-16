@@ -12,11 +12,14 @@ public class AmazonUrunSayfasi {
     @FindBy(xpath = "//*[@id='add-to-cart-button']")
     public WebElement urunuSepeteEkleme;
 
-    @FindBy(xpath = "sc-product-image")
+    @FindBy(xpath = "//*[@class='sc-product-image']")
     public WebElement urunSayfasi;
 
-    @FindBy(xpath = "(//*[@class='a-offscreen'])[1]")
+    @FindBy(xpath = "//*[@id=\"corePrice_feature_div\"]/div/span[1]/span[2]")
     public WebElement urunSayfasindakiFiyat;
+
+    @FindBy(xpath = "(//*[@id='acrCustomerReviewText'])[1]")
+    public WebElement denemekicinyorumlocate;
 
 
 }
